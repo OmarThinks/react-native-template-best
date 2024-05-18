@@ -1,16 +1,8 @@
 # React Native Template Best:
 
-# A) About:
+# A) How to use:
 
-A template pre-configured with requirements for most projects for both `cli` build.
-
-## Youtube:
-
-https://www.youtube.com/watch?v=VN2tiZ5bv7M
-
-# B) How to use:
-
-- Clone the Repo:
+- Use the template:
 
 <b>
 
@@ -26,7 +18,48 @@ npx react-native init --template react-native-template-best
 
 </b>
 
-# C) Technologies Used:
+# B) Links:
+
+<table>
+<tr>
+<th>Link Type	</th>
+<th>Link</th>
+</tr>
+
+<tr>
+<td>npm	</td>
+<td>
+
+https://www.npmjs.com/package/react-native-template-best
+
+</td>
+</tr>
+
+<tr>
+<td>YouTube	</td>
+<td>
+
+https://www.youtube.com/watch?v=VN2tiZ5bv7M
+
+</td>
+</tr>
+
+<tr>
+<td>GitHub	</td>
+<td>
+
+https://github.com/OmarThinks/react-native-template-best
+
+</td>
+</tr>
+
+</table>
+
+# C) About:
+
+A template pre-configured with requirements for most projects for `cli` build.
+
+# D) Technologies Used:
 
 - React
 - React Native
@@ -39,9 +72,9 @@ npx react-native init --template react-native-template-best
 - TypeScript
 - React Native Paper
 
-# D) Features:
+# E) Features:
 
-### D-1) Thememing:
+### E-1) Thememing:
 
 This template supports light and dark themes.  
 On changing the theme, the theme name is stored presistently using Async Storage, and it initialized in the Splash screen on start.
@@ -54,7 +87,7 @@ On changing the theme, the theme name is stored presistently using Async Storage
 
 <img src="./media/images/theme-2.png" width=400>
 
-### D-2) Localization:
+### E-2) Localization:
 
 The app supports languages, and also switching rtl or lrt.  
 But if the app changes the language, and both languages have differenet directions, then the app must restart.
@@ -71,7 +104,7 @@ But if the app changes the language, and both languages have differenet directio
 
 <img src="./media/images/lang-3.png" width=400>
 
-### D-3) Common Components:
+### E-3) Common Components:
 
 For this application, i created the following common compoennets:
 
@@ -81,17 +114,17 @@ For this application, i created the following common compoennets:
 - CircleIcon
 - AppBar
 
-### D-4) NativeWind:
+### E-4) NativeWind:
 
 Just like using TailWindCSS for React projects, NativeWind is the same as TailWindCSS but for React Native.  
 The template supports TailWindCSS
 
-### D-5) Mainlayout:
+### E-5) Mainlayout:
 
 MainLayout is a HOC (Higher-Order Component) that I have created for this template.  
 MainLayout reduces code redundency, and keep the code as DRY nd possible.
 
-### D-6) Navigation and Theme Type-Safety:
+### E-6) Navigation and Theme Type-Safety:
 
 <b>
 
@@ -132,11 +165,11 @@ But navigation type safety is for CLI only, since Expo has pre-defined type safe
 
 </b>
 
-# E) Motivation:
+# F) Motivation:
 
 - To start projects faster, instead of spending tto much time preconfiguring everything.
 
-# F) Todos:
+# G) Todos:
 
 - Follow up with React Native versions often to keep the template up to date.
 - Remove the AppBar component, and just use the React Navogation AppBar features.
